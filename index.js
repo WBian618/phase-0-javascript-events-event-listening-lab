@@ -7,3 +7,10 @@ function clickAlert() {
 
 input.addEventListener('click', clickAlert); 
 }
+
+function addElement() {
+  const element = document.querySelector('Input') 
+  element.append('p')
+}
+
+console.log(addElement())
